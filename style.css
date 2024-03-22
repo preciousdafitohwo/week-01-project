@@ -1,0 +1,80 @@
+
+body {margin: 0;}
+
+div {padding-left: 60px;
+}
+.nav a {color: white;
+    font-weight: 500;
+}
+
+nav {display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-left: 60px;
+}
+
+.nav a:hover {text-decoration: underline;
+cursor: pointer;}
+
+h1 {font-size: 3em;
+font-weight: bold;
+}
+header {display: flex;
+padding-left: 60px;
+position: fixed;
+top: 0%;
+left: 0%;
+color: white;
+}
+
+.feature {
+    height: 100vh;
+    background-image: url("./assets/space2.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title {
+    color: aliceblue;
+}
+
+.feature2 {
+    height: 100vh;
+    background-image: url("./assets/space3.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title2 {color: aliceblue;}
+
+.feature3 {
+    height: 100vh;
+    background-image: url("./assets/space4.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title3 {color: aliceblue;}
+.read {color: aliceblue;
+border: 2px solid white ;
+padding: 20px 200px 20px 40px;
+font-weight: bold;}
+
+.read:hover {color: black;
+background-color: aliceblue;
+cursor: pointer;}
+a {text-decoration: none;}
+
+footer {display: flex;
+justify-content: center;
+background-color: rgb(70, 70, 7);
+color :grey;
+padding: 50px 0;
+font-size: 2em;}
+
